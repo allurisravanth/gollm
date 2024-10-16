@@ -2,14 +2,16 @@ module github.com/allurisravanth/gollm
 
 go 1.22.5
 
+toolchain go1.22.8
+
 require (
-	github.com/caarlos0/env/v11 v11.1.0
-	github.com/go-playground/validator/v10 v10.22.0
+	github.com/caarlos0/env/v11 v11.2.2
+	github.com/go-playground/validator/v10 v10.22.1
 	github.com/invopop/jsonschema v0.12.0
 	github.com/pkoukk/tiktoken-go v0.1.7
 	github.com/stretchr/testify v1.9.0
 	github.com/teilomillet/gollm v0.1.0
-	golang.org/x/time v0.6.0
+	golang.org/x/time v0.7.0
 )
 
 require (
