@@ -34,3 +34,5 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/teilomillet/gollm v0.1.0 => github.com/allurisravanth/gollm v0.0.0-20241016070343-d12703a3443f
