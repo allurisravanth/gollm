@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/allurisravanth/gollm/utils"
 	"github.com/pkoukk/tiktoken-go"
-	"github.com/teilomillet/gollm/utils"
 )
 
 type MemoryMessage struct {

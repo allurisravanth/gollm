@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teilomillet/gollm"
-	"github.com/teilomillet/gollm/tools"
+	"github.com/allurisravanth/gollm"
+	"github.com/allurisravanth/gollm/tools"
 )
 
 // AnalysisResult represents the structured output of our analysis

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/llm"
-	"github.com/teilomillet/gollm/providers"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/llm"
+	"github.com/allurisravanth/gollm/providers"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 type ComparisonResult[T any] struct {

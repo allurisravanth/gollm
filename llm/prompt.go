@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/allurisravanth/gollm/utils"
 	"github.com/invopop/jsonschema"
-	"github.com/teilomillet/gollm/utils"
 )
 
 type CacheType string

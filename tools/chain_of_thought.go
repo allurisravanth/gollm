@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/teilomillet/gollm"
+	"github.com/allurisravanth/gollm"
 )
 
 var chainOfThoughtTemplate = gollm.NewPromptTemplate(

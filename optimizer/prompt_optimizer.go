@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/teilomillet/gollm/llm"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/llm"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 func init() {

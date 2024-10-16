@@ -66,7 +66,7 @@
 ## Installation
 
 ```bash
-go get github.com/teilomillet/gollm
+go get github.com/allurisravanth/gollm
 ```
 
 ## Quick Start
@@ -82,7 +82,7 @@ import (
     "log"
     "os"
 
-    "github.com/teilomillet/gollm"
+    "github.com/allurisravanth/gollm"
 )
 
 func main() {
@@ -511,7 +511,7 @@ fmt.Printf("Response 2: %s\n", response2)
 
 ## Examples and Tutorials
 
-Check out our [examples directory](https://github.com/teilomillet/gollm/tree/main/examples) for more usage examples, including:
+Check out our [examples directory](https://github.com/allurisravanth/gollm/tree/main/examples) for more usage examples, including:
 
 - Basic usage
 - Different prompt types
@@ -547,7 +547,7 @@ To get started:
 
 1. Familiarize yourself with our [philosophy](#philosophy).
 2. Check out our [CONTRIBUTING.md](CONTRIBUTING.md).
-3. Look through our [issues](https://github.com/teilomillet/gollm/issues).
+3. Look through our [issues](https://github.com/allurisravanth/gollm/issues).
 4. Fork the repository, make your changes, and submit a pull request.
 
 Thank you for helping make `gollm` better!

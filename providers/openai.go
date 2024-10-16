@@ -3,8 +3,9 @@ package providers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/utils"
+
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 type OpenAIProvider struct {

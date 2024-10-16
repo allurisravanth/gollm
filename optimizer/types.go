@@ -5,8 +5,8 @@ package optimizer
 import (
 	"time"
 
-	"github.com/teilomillet/gollm/llm"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/llm"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 type Metric struct {
@@ -69,4 +69,3 @@ type PromptOptimizer struct {
 	memorySize        int
 	iterations        int
 }
-

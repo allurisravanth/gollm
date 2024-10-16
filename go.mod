@@ -8,6 +8,7 @@ require (
 	github.com/invopop/jsonschema v0.12.0
 	github.com/pkoukk/tiktoken-go v0.1.7
 	github.com/stretchr/testify v1.9.0
+	github.com/teilomillet/gollm v0.1.0
 	golang.org/x/time v0.6.0
 )
 

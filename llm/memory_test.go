@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/allurisravanth/gollm/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/teilomillet/gollm/utils"
 )
 
 type MockLLM struct {

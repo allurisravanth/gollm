@@ -3,8 +3,8 @@
 package gollm
 
 import (
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 // Re-export types

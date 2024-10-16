@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/providers"
-	"github.com/teilomillet/gollm/utils"
-	"github.tools.sap/I521664/llm-rag-server/aicore"
 	"io"
 	"net/http"
+
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/providers"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 type AicoreProvider struct {
@@ -65,6 +65,10 @@ func (p *AicoreProvider) Endpoint() string {
 	return url
 }
 
+type Token struct {
+	AccessToken string `json:"access_token"`
+}
+
 func (p *AicoreProvider) GetToken() string {
 	var (
 		xsuaaUrl     string
@@ -102,7 +106,7 @@ func (p *AicoreProvider) GetToken() string {
 	if err != nil {
 		fmt.Println(err)
 	}
-	var token aicore.Token
+	var token Token
 	err = json.Unmarshal(body, &token)
 	if err != nil {
 		return ""

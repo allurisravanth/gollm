@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/providers"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/providers"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 // LLM interface defines the methods that our internal language model should implement

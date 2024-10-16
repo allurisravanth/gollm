@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/teilomillet/gollm/llm"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/llm"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 // OptimizePrompt optimizes the given prompt and generates a response

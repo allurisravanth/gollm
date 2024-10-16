@@ -4,12 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/teilomillet/gollm"
-	"github.com/teilomillet/gollm/tools"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/allurisravanth/gollm"
+	"github.com/allurisravanth/gollm/tools"
 )
 
 type ComplexPerson struct {

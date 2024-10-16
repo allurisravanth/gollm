@@ -2,9 +2,10 @@
 package gollm
 
 import (
-	"github.com/teilomillet/gollm/llm"
-	"github.com/teilomillet/gollm/utils"
 	"strings"
+
+	"github.com/allurisravanth/gollm/llm"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 // Re-export types from llm package

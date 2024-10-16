@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/utils"
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 // AnthropicProvider implements the Provider interface for Anthropic

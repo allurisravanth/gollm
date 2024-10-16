@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/allurisravanth/gollm/utils"
 	"github.com/caarlos0/env/v11"
-	"github.com/teilomillet/gollm/utils"
 )
 
 type MemoryOption struct {

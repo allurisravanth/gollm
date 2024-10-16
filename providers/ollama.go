@@ -5,11 +5,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/teilomillet/gollm/config"
-	"github.com/teilomillet/gollm/utils"
 	"io"
 	"net/http"
 	"strings"
+
+	"github.com/allurisravanth/gollm/config"
+	"github.com/allurisravanth/gollm/utils"
 )
 
 type OllamaProvider struct {

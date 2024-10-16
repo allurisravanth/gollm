@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/teilomillet/gollm"
-	"github.com/teilomillet/gollm/tools"
+	"github.com/allurisravanth/gollm"
+	"github.com/allurisravanth/gollm/tools"
 )
 
 // MovieReview without validation tags
